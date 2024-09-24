@@ -1,6 +1,8 @@
 [build]
     publish = "public"
-    command = "npm run build"
+    command = "hugo" 
+    
+    # "npm run build"
 
 [build.environment]
     DART_SASS_VERSION = "1.77.5"
