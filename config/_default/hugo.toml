@@ -16,8 +16,8 @@ ignoreErrors = ["error-remote-getjson"]
 
 timeout = "180s"
 
-languageCode = "en-us"
-defaultContentLanguage = "en"
+languageCode = "ru-ru" #"en-us"
+defaultContentLanguage = "ru" #"en"
 defaultContentLanguageInSubdir = false
 
 [outputFormats.REDIR]
@@ -37,6 +37,9 @@ home = ["HTML", "RSS", "REDIR"]
   
 [taxonomies]
   tag = 'tags'
+  
+[permalinks]
+  ru = "tags/:slug/"  
 
 [pagination]
   pagerSize = 9
