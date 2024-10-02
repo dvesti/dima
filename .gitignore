@@ -1,8 +1,13 @@
 /_vendor
 /public/
 /resources/
+
+.DS_Store
+Thumbs.db
+
 node_modules/
 
 .DS_store
+
 .hugo_build.lock
 .Rproj.user

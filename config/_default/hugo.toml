@@ -3,7 +3,9 @@ copyright = "Copyright © 2024 Mark Dumay."
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://example.com/"
+
+baseURL = "https://dvesti.github.io/dima/"
+
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -14,10 +16,14 @@ summaryLength = 20
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+
 timeout = "180s"
 
 languageCode = "ru-ru" #"en-us"
 defaultContentLanguage = "ru" #"en"
+
 defaultContentLanguageInSubdir = false
 
 [outputFormats.REDIR]
@@ -37,9 +43,11 @@ home = ["HTML", "RSS", "REDIR"]
   
 [taxonomies]
   tag = 'tags'
+
   
 [permalinks]
   ru = "tags/:slug/"  
+
 
 [pagination]
   pagerSize = 9
@@ -115,3 +123,8 @@ home = ["HTML", "RSS", "REDIR"]
     target = "assets/config/netlify.toml"
   [[module.imports]]
     path = "github.com/gethinode/hinode"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
