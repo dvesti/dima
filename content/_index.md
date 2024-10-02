@@ -1,6 +1,6 @@
 ---
-title: Welcome to Hinode!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+title: "Привет!"
+description: "Читаем иструкцию по Hugo, Bootstrap, Hinode:"
 thumbnail:
     url: /img/sunrise.jpg
     author: Harris Vo
@@ -10,6 +10,6 @@ thumbnail:
 actions:
   get-started:
     url: "https://gethinode.com/docs"
-    title: "Get started"
+    title: "Начать"
     icon: "fas book-open"
 ---
