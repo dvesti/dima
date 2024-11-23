@@ -17,6 +17,7 @@ summaryLength = 20
 ignoreErrors = ["error-remote-getjson"]
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 
 timeout = "180s"
