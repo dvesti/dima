@@ -16,9 +16,10 @@ summaryLength = 20
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
+
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 ignoreLogs = ["warning-goldmark-raw-html"]
-
+#ignoreLogs = ['warning-goldmark-raw-html']
 
 timeout = "180s"
 
